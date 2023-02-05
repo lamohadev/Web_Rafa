@@ -33,6 +33,10 @@ nav a {
   font-size: 18px;
 }
 
+nav a:hover {
+  color: yellow;
+}
+
 #name {
     background-image: url(imagen.jpg);
     background-size: cover;
