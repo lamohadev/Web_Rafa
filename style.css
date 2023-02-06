@@ -28,7 +28,7 @@ header {
 
 .social-icons a:hover {
   color: #FFD700;
-  transition: all 0.5s ease-in-out 0.2s;
+  transition: all 0.2s ease-in-out 0.2s;
 }
 
 img {
@@ -59,7 +59,7 @@ nav a {
 
 nav a:hover {
   color: yellow;
-  transition: all 0.5s ease-in-out 0.2s;
+  transition: all 0.2s ease-in-out 0.2s;
 }
 
 #name {
