@@ -62,6 +62,12 @@ nav a:hover {
   transition: all 0.2s ease-in-out 0.2s;
 }
 
+.language {
+  width: 15%;
+  float: right;
+  padding: 32px;
+}
+
 #nombre {
     background-image: url(imagen.jpg);
     background-size: cover;
@@ -70,14 +76,14 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
 #nombre h1 {
     color: white;
     text-shadow: 1px 1px black;
     font-size: 3em;
     text-align: center;
-  }
+}
 
 section {
   margin-bottom: 20px;
