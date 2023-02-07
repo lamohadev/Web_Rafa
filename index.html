@@ -63,13 +63,14 @@
       <section id="contact">
         <h2>Contacto por <span>Email</span></h2>
         <h4>Comunicate con Nosotros</h4>
+        <p>Si desea contactarnos para presentaciones, shows, espectaculos o colaboraciones con otros artistas, por favor rellene este formulario de contacto y será atendido en el menor tiempo posible por nuestro equipo de trabajo.</p>
         <form action="#">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="message">Mensaje:</label>
-          <textarea id="message" name="message"></textarea>
+          <div class="input-container">
+            <input type="text" id="name" name="name" placeholder="Nombre">
+          <input type="email" id="email" name="email" placeholder="Email">
+          <input type="tel" id="phone" name="phone" placeholder="Telefono">
+          </div>
+          <textarea id="message" name="message" placeholder="Mensage"></textarea>
           <input type="submit" value="Enviar">
         </form>
       </section>

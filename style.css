@@ -104,21 +104,66 @@ h4 {
 h2 span {
   color: #dd9933;
 }
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-label, input[type="submit"] {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 
-input[type="text"], input[type="email"], textarea {
-  width: 100%;
+input[type="submit"] {
+  width: 100px;
+  margin: 50px;
   padding: 10px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid;
+}
+
+input[type="submit"]:hover {
+  background-color: #dd9933;
+  border: 1px solid #dd9933;
+  transition: all 0.2s ease-in-out 0.2s;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 30%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+textarea {
+  width: 79%;
+  height: 100px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+textarea:active, input:active{
+  outline: none;
+  }
+
+textarea:focus, input:focus{
+  outline: none;
+  border-bottom: 1px solid #dd9933;
+}
+
+p {
+  text-align: center;
+  margin: 10px 50px;
 }
 
 footer {
