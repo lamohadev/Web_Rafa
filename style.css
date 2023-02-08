@@ -87,6 +87,7 @@ nav a:hover {
 
 section {
   margin-bottom: 20px;
+  padding: 30px;
 }
 
 h2 {
@@ -102,6 +103,28 @@ h4 {
 
 h2 span {
   color: #dd9933;
+}
+
+#gallery {
+  background-color:  rgba(8,26,36);
+
+}
+
+#videos {
+  background-color:  rgba(8,26,36);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
@@ -167,7 +190,7 @@ p {
 }
 
 footer {
-  background-color: lightgray;
+  background-color: rgba(8,26,36);
   padding: 20px;
   text-align: center;
 }
